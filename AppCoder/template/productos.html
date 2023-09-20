@@ -1,0 +1,124 @@
+{% extends "padre.html" %}
+
+{% load static %}
+
+
+{% block contenido %}
+{% block seccion %}
+  <h1> Productos </h1>
+{% endblock %}
+
+
+
+
+<main> 
+    <div class="container">
+        <!--FILA 1-->
+        <div class="row"> 
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app_coder/assets/img/Flowing.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Flowing</h5>
+                      <p class="card-text">Florero en movimiento. Alto. </p>
+                      <a href="{% url 'home' %}" class="btn btn-info">Lo deseo!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app_coder/assets/img/Medialuna.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Medialuna</h5>
+                      <p class="card-text">Maceta de pared. Lista para colgar!</p>
+                      <a href="{% url 'home' %}" class="btn btn-info">Lo deseo!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app_coder/assets/img/Papaya.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Papaya Lovers</h5>
+                      <p class="card-text">Alfombra punch needle. Mediana.</p>
+                      <a href="{% url 'home' %}" class="btn btn-info">Lo deseo!</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <!--FILA 2-->
+        <div class="row"> 
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app_coder/assets/img/Shades of green.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Shades of green</h5>
+                      <p class="card-text">Alfombra punch needle. Grande.</p>
+                      <a href="{% url 'home' %}" class="btn btn-info">Lo deseo!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app_coder/assets/img/Bon app.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bon App</h5>
+                      <p class="card-text">Set de platos playos x4. Bon appetite</p>
+                      <a href="{% url 'home' %}" class="btn btn-info">Lo deseo!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app_coder/assets/img/Noodles.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Noodles</h5>
+                      <p class="card-text">Alfombra punch needle. Mediana. </p>
+                      <a href="{% url 'home' %}" class="btn btn-info">Lo deseo!</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <!--FILA 3-->
+        <div class="row"> 
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app_coder/assets/img/cup of love.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cup of love</h5>
+                      <p class="card-text">Tote bag. Estampa en punch needle. </p>
+                      <a href="{% url 'home' %}" class="btn btn-info">Lo deseo!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app_coder/assets/img/Cuadriculado.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cuadrículado</h5>
+                      <p class="card-text">Florero de cerámica. Alto.</p>
+                      <a href="{% url 'home' %}" class="btn btn-info">Lo deseo!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'app_coder/assets/img/orange.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Citric</h5>
+                      <p class="card-text">Alfombra punch needle. Chica.</p>
+                      <a href="{% url 'home' %}" class="btn btn-info">Lo deseo!</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% load static %}
+{% block contenido %}
+
+<style>
+    .gif {
+        width: 75%;
+        height: auto;
+    }
+</style>
+<br>
+<br>
+<br>
+<br>
+    <img src="{% static 'app_coder/assets/img/fin-animado.gif' %}" class="gif" alt="...">
+<div class="container position-relative"> </div> 
+
+<h1> Vuelva pronto </h1>
+<a href="{% url 'home' %}" class="fs-3 btn-primary">Volver</a>
+
+
+{% endblock %}
